@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujjwal Singh - UI/UX Designer & Developer</title>
+    <meta
+      name="description"
+      content="UI/UX Designer & Developer, committed to blend creativity with technology in unique way. "
+    />
+    <meta
+      name="keyword"
+      content="ujjwal singh, ujjwalsingh, ujjwalsinghgit, ujjwalsinghux"
+    />
+    <meta name="author" content="Ujjwal Singh" />
+    <link rel="shortcut icon" type="image/png" href="ujjwalsingh.jpg" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="ujjwalsinghlogo.svg" alt="Ujjwal Singh" />
+      </div>
+
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#my-skills" class="nav__link">What I Do </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Who I Am</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- introduction -->
+
+    <section class="intro" id="home">
+      <img src="ujjwalsingh.jpg" alt="Ujjwal Singh" class="intro__img" />
+      <h1 class="section__title section__title--intro">
+        <span class="intro__hi">Hello Great Minds !!, I'm</span> <br />
+        <strong>Ujjwal Singh</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        UI/UX Designer🎨 & Developer👨‍💻
+      </p>
+    </section>
+
+    <!--end of introduction -->
+
+    <!-- skills -->
+    <h2 class="section__title section__title--about">What I Do</h2>
+
+    <section id="my-skills" class="skills">
+
+      <div class="skills__content">
+        <h1 class="skills__heading">🎨UI/UX Designer</h1>
+        <p class="skills__detail">
+          Love To Create Original And Impactful User Experiences.
+        </p>
+        <h3 class="skills__why">Things I Design</h3>
+        <h3 class="skills__work">UX, UI, Web, Mobile, Apps</h3>
+        <h2 class="skills_tool">Design Tools</h2>
+
+        <h2 class="skills__item">Adobe XD</h2>
+        <h2 class="skills__item">Figma</h2>
+        <h2 class="skills__item">Photoshop</h2>
+        <h2 class="skills__item">Invision</h2>
+        <h2 class="skills__item">Balsamiq</h2>
+      </div>
+
+      <div class="skills__content">
+        <h1 class="skills__heading">👨‍💻Developer</h1>
+        <p class="skills__detail">
+          develop user experiences that make people's lives simple.
+        </p>
+        <h3 class="skills__why">Tech I Know</h3>
+        <h3 class="skills__work">
+          MongoDB, Express, React and Node.js
+        </h3>
+        <h2 class="skills_tool">Dev Tools</h2>
+
+        <h2 class="skills__item">Webpack</h2>
+        <h2 class="skills__item">Git Workflow</h2>
+        <h2 class="skills__item">Npm</h2>
+        <h2 class="skills__item">React-Redux</h2>
+        <h2 class="skills__item">Firebase</h2>
+      </div>
+
+      <div class="skills__content">
+        <h1 class="skills__heading">✅Experience</h1>
+        <p class="skills__detail">
+          Worked with startups, agencies and businesses to bring their ideas to
+          life.
+        </p>
+        <h3 class="skills__why">Experiences I draw from</h3>
+        <h3 class="skills__work">
+          UX/UI, Web Development, Freelancing
+        </h3>
+        <h2 class="skills_tool">Mentor Status</h2>
+
+        <h2 class="skills__item">Worked on 20+ Different Projects</h2>
+        <h2 class="skills__item">Lead Designer Remote Based Company</h2>
+        <h2 class="skills__item">Working On Remote Jobs Platform</h2>
+        <h2 class="skills__item">
+          Ready to collaborate with highly performing team or individual
+        </h2>
+      </div>
+    </section>
+
+    <!-- end of -->
+
+    <!-- about me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I Am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        UI/UX DESIGNER & DEVELOPER BASED IN INDIA
+      </p>
+      <div class="about-me__body">
+        <p>
+          🙋‍♂️I'm UI/UX Designer🎨 & Developer👨‍💻 based in India with experience in
+          delivering end-to-end UI/UX for early stage startups and businesses.
+        </p>
+      </div>
+      <img
+        src="ujjwalsingh.jpg"
+        class="about-me__img"
+        alt="Ujjwal Singh UI/UX Designer & Developer"
+      />
+    </section>
+    <!--end of about me -->
+
+    <!-- my work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Here are my few implemented projects
+      </p>
+      <div class="portfolio">
+        <a
+          href="https://searchwiki.netlify.com/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="./img/wiki.png" alt="" class="portfolio__img" />
+        </a>
+        <a
+          href="https://topquotes.netlify.com/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="/img/quotes.png" alt="" class="portfolio__img" />
+        </a>
+
+        <a
+        href="https://passwordmeter.netlify.app/"
+        target="_blank"
+        class="portfolio__item"
+      >
+        <img src="/img/password.png" alt="" class="portfolio__img" />
+      </a>
+
+
+
+
+      </div>
+      
+    </section>
+    <!--end of my work -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <a class="footer-link__detail"
+        >Have a project, idea or problem you'd like to discuss?</a
+      ><br />
+      <a class="footer-link">ujjwalsinghux@gmail.com</a><br />
+      <a class="footer-link">ujjwalsingh.dev@gmail.com</a>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/ujjwalsinghgit"
+            target="_blank"
+            class="social-list__link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.behance.net/ujjwalsinghux"
+            target="_blank"
+            class="social-list__link"
+            ><i class="fab fa-behance"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://dribbble.com/ujjwalsingh"
+            target="_blank"
+            class="social-list__link"
+            ><i class="fab fa-dribbble"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.instagram.com/ujjwalsingh.pix/"
+            target="_blank"
+            class="social-list__link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+
+      <a class="footer-copyright"
+        >I designed and coded this website from scratch with ❤ © 2020
+      </a>
+    </footer>
+    <!--end of footer -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
